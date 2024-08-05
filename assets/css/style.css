@@ -71,3 +71,13 @@ footer{
     padding:30px;
 }
 
+/*Large devices (laptops and desktops, 992px and up)*/
+@media screen and (min-width: 992px) {
+    li{
+        text-decoration: underline 0.15em rgba(0, 0, 0, 0);
+        transition: text-decoration-color 300ms;
+    }
+    li:hover{
+        text-decoration-color: #1DF500;
+    }
+    }
