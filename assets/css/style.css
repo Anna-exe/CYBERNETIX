@@ -8,4 +8,6 @@ body{
 /*Body's children*/
 body>*{
     background-color: rgba(0, 0, 0, 0.20);
+    border-radius: 20px;
+    margin: 10px;
 }
