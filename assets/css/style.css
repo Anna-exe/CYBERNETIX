@@ -20,12 +20,6 @@ body>*{
     margin: 10px;
 }
 
-/*Main content*/
-main{
-    /*Make main element take any surplus space to push footer down*/
-    flex: 1 0 auto;
-}
-
 /*Nav bar*/
 nav>ul{
     list-style-type: none;
@@ -39,3 +33,10 @@ a{
     text-decoration: none;
     color:#1DF500;
 }
+
+/*Main content*/
+main{
+    /*Make main element take any surplus space to push footer down*/
+    flex: 1 0 auto;
+}
+
