@@ -2,7 +2,11 @@ body{
     /*Background image styling*/
     background: black url("../images/background.jpg") no-repeat fixed right top;
     background-size: cover;
+    /*General body styles*/
     color:#1DF500;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 /*Body's children*/
@@ -10,4 +14,10 @@ body>*{
     background-color: rgba(0, 0, 0, 0.20);
     border-radius: 20px;
     margin: 10px;
+}
+
+/*Main content*/
+main{
+    /*Make main element take any surplus space to push footer down*/
+    flex: 1 0 auto;
 }
