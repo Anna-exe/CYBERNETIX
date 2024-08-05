@@ -1,0 +1,5 @@
+body{
+    /*Background image styling*/
+    background: black url("../images/background.jpg") no-repeat fixed right top;
+    background-size: cover;
+}
