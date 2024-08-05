@@ -21,3 +21,17 @@ main{
     /*Make main element take any surplus space to push footer down*/
     flex: 1 0 auto;
 }
+
+/*Nav bar*/
+nav>ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0%;
+}
+
+/*Anchor tag decoration*/
+a{
+    text-decoration: none;
+    color:#1DF500;
+}
