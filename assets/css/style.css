@@ -58,6 +58,14 @@ hr{
     text-shadow: 0px 0px 4px white;
 }
 
+/*Navigation bar*/
+#navbar{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0%;
+}
+
 /*Main content*/
 main{
     /*Make main element take any surplus space to push footer down*/
@@ -69,6 +77,13 @@ main{
 
 footer{
     padding:30px;
+}
+
+#social{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0%;
 }
 
 /*Large devices (laptops and desktops, 992px and up)*/
