@@ -16,8 +16,9 @@ body{
 
 /*Body's children*/
 body>*{
-    background-color: rgba(0, 0, 0, 0.60);
+    background-color: rgba(0, 0, 0, 0.40);
     margin: 5px 0;
+    box-shadow: 0 0 1px black;
 }
 
 /*Logo*/
