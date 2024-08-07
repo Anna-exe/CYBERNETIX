@@ -27,7 +27,12 @@ body>*{
 }
 
 /*Nav bar*/
-nav>ul{
+nav{
+    position: fixed;
+    width: 100%;
+}
+
+#navbar{
     list-style-type: none;
     display: flex;
     justify-content: space-around;
