@@ -48,6 +48,7 @@ h1, h2, h3{
 
 /*Header*/
 header{
+    height:500px;
     text-align: center;
     padding-bottom: 10px;
     background: url(../images/hero-img.webp) no-repeat center center / cover;;
@@ -56,6 +57,7 @@ header{
 hr{
     border: 1px solid #1DF500;
     box-shadow: #1DF500 0 0 10px;
+    margin-top: 350px;
 }
 
 /*Slogan styling in header*/
