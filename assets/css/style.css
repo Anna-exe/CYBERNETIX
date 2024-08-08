@@ -121,14 +121,14 @@ main{
     li:hover{
         text-decoration-color: #1DF500;
     }
-    }
+}
 
     
 @media screen and (min-width: 1440px) {
-        header {
-            height: 600px;
-        }
-        header hr{
-            margin-top: 450px;
-        }
+    header {
+         height: 600px;
     }
+    header hr{
+         margin-top: 450px;
+    }
+}
