@@ -46,6 +46,10 @@ a{
     color:#1DF500;
 }
 
+.active{
+    text-decoration: underline 0.15em #1DF500;
+}
+
 /*Headings*/
 h1, h2, h3{
     color: white;
@@ -126,7 +130,7 @@ footer{
     }
     }
 
-/*Larger laptop and desktop screens 1440px and up*/
+    
 @media screen and (min-width: 1440px) {
         header {
             height: 600px;
