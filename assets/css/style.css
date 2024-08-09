@@ -92,6 +92,10 @@ main{
 }
 
 /*Booking form*/
+#booking{
+    max-width: 550px;
+    margin: auto;
+}
 
 fieldset{
     padding-bottom: 30px;
