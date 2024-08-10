@@ -131,8 +131,8 @@ main{
 }
 
 /*Products section*/
-#products{
-    
+#products h2, h3, p{
+    padding:15px;
 }
 #product-img{
     display: flex;
