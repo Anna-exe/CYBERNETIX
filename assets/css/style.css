@@ -1,6 +1,12 @@
 /* Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Kode+Mono:wght@400..700&display=swap');
 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body{
     /*Background image styling*/
     background: black url("../images/background.jpg") no-repeat fixed right top;
@@ -8,37 +14,53 @@ body{
     /*General body styles*/
     margin:0;
     color:#1DF500;
-    display: flex;
-    flex-direction: column;
     min-height: 100vh;
     font-family: 'Kode Mono', monospace;
     text-align: center;
 }
 
-/*Body's children*/
-body>*{
-    background-color: rgba(0, 0, 0, 0.40);
-    margin-bottom: 15px;
-    box-shadow: 0 0 5px black;
-}
-
-/*Hero image*/
-#hero{
-    font-size: 280%;
-}
-
-/*Nav bar*/
-nav{
+/*Header*/
+header{
     position: fixed;
+    z-index: 99;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.70);
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
-#navbar{
+/* Navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    display: none;
+    top: 100%;
+}
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
     list-style-type: none;
-    display: flex;
-    justify-content: space-around;
-    padding: 0%;
+    margin-top: 15px;
+}
+
+#menu > li {
+    margin-bottom: 1em;
 }
 
 /*Anchor tag decoration*/
@@ -47,8 +69,24 @@ a{
     color:#1DF500;
 }
 
+.section-styling{
+    background-color: rgba(0, 0, 0, 0.40);
+    box-shadow: 0 0 5px black;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+.darker-section-styling{
+    background-color: rgba(0, 0, 0, 0.70);
+    box-shadow: 0 0 5px black;
+    padding: 10px;
+}
+
 .active{
     text-decoration: underline 0.15em #1DF500;
+}
+
+.hidden{
+    display: none;
 }
 
 /*Headings*/
@@ -57,34 +95,39 @@ h1, h2, h3{
     text-shadow:#1DF500 1px 0 7px;
 }
 
-/*Header*/
-header{
-    height:500px;
-    background: url(../images/hero-img.png) no-repeat center center / cover;
-    padding: 70px 0 40px;
-    box-shadow:none;
-}
-
 hr{
     border: 1px solid #1DF500;
     box-shadow: #1DF500 0 0 10px;
-    margin: 350px 0 20px;
 }
 
-/*Slogan styling in header*/
-#slogan {
-    letter-spacing: 10px;
-    text-shadow: 0px 0px 4px white;
-    font-size: 140%;
-}
 
 /*Main content*/
 main{
     /*Make main element take any surplus space to push footer down*/
     flex: 1 0 auto;
-    padding: 20px;
 }
 
+/*Hero image*/
+#hero{
+    height:500px;
+    background: url(../images/hero-img.png) no-repeat center center / cover;
+    box-shadow:none;
+    font-size: larger;
+    position: relative;
+}
+
+/*Slogan styling in header*/
+#slogan {
+    width:100%;
+    letter-spacing: 10px;
+    text-shadow: 0px 0px 4px white;
+    font-size: 140%;
+    position: absolute;
+    bottom:0;
+    padding-bottom: 30px;
+}
+
+/*Products section*/
 #product-img{
     display: flex;
     flex-direction: column;
@@ -145,6 +188,28 @@ input[type="checkbox" i] {
         align-items: center; 
         gap: 20px;
     }
+
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        background-color: unset;
+        box-shadow: unset;
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
 }
 
 /*Large devices (laptops and desktops, 992px and up)*/
@@ -158,12 +223,9 @@ input[type="checkbox" i] {
     }
     }
 
-    
+    /*Larger devices (laptops and desktops, 1440px and up)*/
 @media screen and (min-width: 1440px) {
-        header {
-            height: 600px;
-        }
-        header hr{
-            margin-top: 450px;
-        }
+    #hero {
+        height: 600px;
     }
+}
