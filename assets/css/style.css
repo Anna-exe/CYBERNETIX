@@ -70,6 +70,7 @@ a {
     color: #1DF500;
 }
 
+/*General styling classes*/
 .section-styling {
     background-color: rgba(0, 0, 0, 0.40);
     box-shadow: 0 0 5px black;
@@ -190,6 +191,8 @@ input[type="checkbox"i] {
     background-color: #1eff0052;
     color: black
 }
+
+/*Footer*/
 footer {
     background-color: rgba(0, 0, 0, 0.40);
     box-shadow: 0 0 5px black;
