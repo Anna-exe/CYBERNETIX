@@ -160,13 +160,17 @@ p {
     margin: 30px auto;
 }
 
-#augmentation-choice {
-    margin: 0 20px 20px;
-}
-
 fieldset {
     padding-bottom: 20px;
     border: #0f8000 1px solid;
+}
+
+#info {
+    
+}
+
+#augmentation-choice {
+    margin: 0 20px 20px;
 }
 
 .text-input {
