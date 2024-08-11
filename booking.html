@@ -58,13 +58,13 @@
                     </legend>
                     <br>
                     <label for="first-name">First name</label>
-                    <input type="text" name="first_name" id="first-name" class="text-input" required>
+                    <input type="text" name="first_name" id="first-name" class="text-input" autocomplete="given-name" required>
                     <br><br>
                     <label for="last-name">Last name</label>
-                    <input type="text" name="last_name" id="last-name" class="text-input" required>
+                    <input type="text" name="last_name" id="last-name" class="text-input" autocomplete="family-name" required>
                     <br><br>
                     <label for="email-address">Email address</label>
-                    <input type="email" name="email_address" id="email-address" class="text-input" required>
+                    <input type="email" name="email_address" id="email-address" class="text-input" autocomplete="email">
                     <br><br>
                     <label for="date">Preferred date</label>
                     <input type="date" name="date" id="date" class="date" required>
@@ -74,7 +74,7 @@
                         <legend>
                             <h3>Choose your augmentation</h3>
                         </legend>
-                        <input type="checkbox" name="augmentations" value="Arms" id="arms">
+                        <input type="checkbox" name="augmentations" value="Arms" id="arms" autocomplete="first-name">
                         <label for="arms">Arm prosthesis</label><br><br>
                         <input type="checkbox" name="augmentations" value="Legs" id="legs">
                         <label for="legs">Leg prosthesis</label><br><br>
