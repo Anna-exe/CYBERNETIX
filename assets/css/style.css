@@ -266,9 +266,12 @@ input[type="checkbox" i] {
     }
     }
 
-    /*Larger devices (laptops and desktops, 1440px and up)*/
-@media screen and (min-width: 1440px) {
+    /*Larger devices (laptops and desktops, 1350px and up)*/
+@media screen and (min-width: 1350px) {
     #hero {
         height: 600px;
+    }
+    #about-description>*{
+        width: 500px;
     }
 }
