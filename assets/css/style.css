@@ -145,6 +145,7 @@ main {
     margin: 30px 0 30px;
 }
 
+
 /*Products section*/
 #products h2,
 h3,
@@ -292,6 +293,11 @@ footer p {
     #about-description>* {
         width: 400px;
     }
+
+    #explore-btn:hover {
+        color: #1DF500;
+        text-shadow: white 1px 0 7px;
+    }    
 }
 
 /*Larger devices (laptops and desktops, 1350px and up)*/
