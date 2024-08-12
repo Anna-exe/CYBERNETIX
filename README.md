@@ -1,7 +1,8 @@
 # CybernetiX
 
-Cybernetix is a fictional website of our possible future offering implants and prosthesis products and services. Targeted on customers that want to upgrade their bio-bodies or replace their lost/worn body parts. Website is useful for people to find out information about Cybernetix products and book an appointment with us. The theme used is minimalistic and pleased to the eye as website has a medical purpose.
+Cybernetix is a fictional website of our possible future offering implants and prosthesis products and services. Targeted on customers that want to upgrade their bio-bodies or replace their lost/worn body parts. Website is useful for people to find out information about Cybernetix products and book an appointment with us. The theme used is minimalistic as website has a medical purpose which requires more formal approach.
 
+##  Responsiveness
 The site is responsive for all screen sizes.
 
 ![Screenshot of the websites homepage on different devices](assets/images/mockup-readme.webp) 
@@ -9,7 +10,7 @@ The site is responsive for all screen sizes.
 ## Features
 * Navigation Bar
     -  Featured at the top of all three pages, the navigation links are situated to the right. 
-    -  On larger screens they show the text; About, Products and Booking. On smaller screens, such as mobiles, the navigation links are situated in the burger-icon that expands when you click it.
+    -  On larger screens they show the text: About, Products and Booking. On smaller screens, such as mobiles, the navigation links are situated in the burger-icon that expands when you click it.
 
 
 * The Header
@@ -85,8 +86,7 @@ The site is responsive for all screen sizes.
 ![Screenshot of the CSS validator result](/assets/images/css-no-error-readme.png)
 
 ## Bugs
--   There was a bug causing error on the css file when the Google fonts where imported with the @import link. 
-I reached out to Tutor support that helped me and advised to use the link to add in the html file instead which solved the issue. Though they could not really tell why that was happening.
+-   No bugs found
 
 ### Unfixed bugs
 -   No unfixed bugs
@@ -123,7 +123,7 @@ I reached out to Tutor support that helped me and advised to use the link to add
 
 ### Content
 -   The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
--   The Favicon in the Title of the page was taken from free source and I used Photoshop to style it[Favicon](https://www.vectorstock.com/)
+-   The Favicon in the Title of the page was taken from free source and I used Photoshop to style it [Favicon](https://www.vectorstock.com/)
 -   The layout and design of website was inspired by:
     - Code Institute Love Running project
     - Code Institute sample project
@@ -137,5 +137,5 @@ I reached out to Tutor support that helped me and advised to use the link to add
 ### Tools
 -   Image converter to webp format [CloudConvert](https://cloudconvert.com/)
 -   Brushes used for hero image [BrushEezy](https://www.brusheezy.com/)
--   Mockup of preview in different devices[MeadiaModifier](https://mediamodifier.com/)
+-   Mockup of preview in different devices [MeadiaModifier](https://mediamodifier.com/)
 -   Photoshop
