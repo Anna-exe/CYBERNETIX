@@ -96,6 +96,10 @@ h3 {
     text-shadow: #1DF500 1px 0 7px;
 }
 
+.hidden-heading {
+    visibility: hidden;
+}
+
 hr {
     border: 1px solid #1DF500;
     box-shadow: #1DF500 0 0 10px;
