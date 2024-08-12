@@ -118,7 +118,7 @@ main {
 /*Hero image*/
 #hero {
     height: 500px;
-    background: url(../images/hero-img-upd.webp) no-repeat center center / cover;
+    background: url(../images/hero-img.webp) no-repeat center center / cover;
     box-shadow: none;
     font-size: larger;
     position: relative;
