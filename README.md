@@ -131,7 +131,7 @@ The site is responsive for all screen sizes.
 
 ### Media
 -   The image in the hero section [hdwallpapers](https://www.hdwallpapers.in/)
--   The body's background image [WallpaperFlare](https://www.wallpaperflare.com/)
+-   The body's background image [Wallpaper Flare](https://www.wallpaperflare.com/)
 -   The augmentation pictures [Netzona](https://netzona.org/)
 
 ### Tools
@@ -139,3 +139,8 @@ The site is responsive for all screen sizes.
 -   Brushes used for hero image [BrushEezy](https://www.brusheezy.com/)
 -   Mockup of preview in different devices [MeadiaModifier](https://mediamodifier.com/)
 -   Photoshop
+
+### Reference
+-   Code for animated underline in navbar was borrowed from [CSS-IRL](https://css-irl.info/)
+-   Gained a lot of tips from [Developer Mozilla](https://developer.mozilla.org/) and [w3schools](https://www.w3schools.com/)
+-   Forums [Stack Overflow](https://stackoverflow.com/) and [Github Community](https://github.com/community)
