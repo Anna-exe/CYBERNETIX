@@ -9,7 +9,7 @@
 
 body {
     /*Background image styling*/
-    background: black url("../images/background.jpg") no-repeat fixed right top;
+    background: black url("../images/background.webp") no-repeat fixed right top;
     background-size: cover;
     /*General body styles*/
     margin: 0;
