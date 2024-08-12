@@ -119,6 +119,7 @@ I reached out to Tutor support that helped me and advised to use the link to add
 
 ## Credits
 -   A special thanks to my Mentor for the support.
+-   Google was great help
 
 ### Content
 -   The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
@@ -132,3 +133,9 @@ I reached out to Tutor support that helped me and advised to use the link to add
 -   The image in the hero section [hdwallpapers](https://www.hdwallpapers.in/)
 -   The body's background image [WallpaperFlare](https://www.wallpaperflare.com/)
 -   The augmentation pictures [Netzona](https://netzona.org/)
+
+### Tools
+-   Image converter to webp format [CloudConvert](https://cloudconvert.com/)
+-   Brushes used for hero image [BrushEezy](https://www.brusheezy.com/)
+-   Mockup of preview in different devices[MeadiaModifier](https://mediamodifier.com/)
+-   Photoshop
