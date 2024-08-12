@@ -14,49 +14,49 @@ The site is responsive for all screen sizes.
 
 
 * The Header
-    -  At the top left in the header section, there is a company logo name, that will take the user to the home page when clicked.   
+    -  At the top left in the header section, there is a company logo name that will take the user to the home page when clicked.   
     -   The Company logo sets the font theme of futuristic coding style and a main color theme: green, white and black with some transparency.
 ![Screenshot of the header containing company logo and navigation bar](/assets/images/header-readme.png)
 
 * The Home page
-    -   This is the landing page with it's vibrant art connecting human and robotic hands, together with a slogan text, inviting to embrace new possibilities. Picture is resembling the art of famous artist Michelangelo - the moment of divine creation.
+    -   This is the landing page with its vibrant art connecting human and robotic hands, together with a slogan text, inviting us to embrace new possibilities. Picture is resembling the art of famous artist Michelangelo - the moment of divine creation.
 
 ![Screenshot of the landing page image  "Discover your new self"](/assets/images/landing-readme.png)
 
 * The About Us section
-    -   The section below contains four paragraphs which explains user what is CybernetiX company offering and how user can benefit from their products.
-    - At the bottom of the page, after user is introduced to CybernetiX, there is a button linked to products the page.
+    -   The section below contains four paragraphs which explains to users what CybernetiX company offers and how users can benefit from their products.
+    - At the bottom of the page, after a user is introduced to CybernetiX, there is a button linked to products on the page.
 ![Screenshot of the main content section](/assets/images/main-readme.png)
 
 
 * The Footer
-    -   The footer section includes relevant links to Facebook, Instagram and Twitter, following by copyright text.
+    -   The footer section includes relevant links to Facebook, Instagram and Twitter, followed by copyright text.
     -   The links will open in a new tab and will introduce users to our happy customer stories shared on social networks.
 ![Screenshot of the Footer with social media links](/assets/images/footer-readme.png)
 
 * The Products page
-    -   The products page gives the user a short preview on what kind of products company offers.
-    -   There is a short paragraph of what page is offering and a text with anchor link leading to the booking page.
+    -   The products page gives the user a short preview on what kind of products the company offers.
+    -   There is a short paragraph of what page is offering and a text with an anchor link leading to the booking page.
 ![Screenshot of products page showing examples of augmentations offered](/assets/images/products-readme.png)
 
 * The Booking page
     -   Booking form with minimalistic design that is easy to understand.
-    -   Form allows user to fill in personal details that are necessary for appointment with Cyber-Doctors.
-    -   Checkboxes allow to choose what kind of augmentation user wants to install.
-    -   At the bottom of the form there are Submit and Reset buttons, designed with different styles to show that buttons have different purpose.
+    -   Form allows users to fill in personal details that are necessary for appointment with Cyber-Doctors.
+    -   Checkboxes allow users to choose what kind of augmentation they want to install.
+    -   At the bottom of the form there are Submit and Reset buttons, designed with different styles to show that buttons have different purposes.
 ![Screenshot of the booking form](/assets/images/booking-readme.png)    
 
 ### Features left to implement
--   I would like to add a bigger range of products for each category mentioned in products page.
+-   I would like to add a bigger range of products for each category mentioned in the products page.
 -   Reviews page, showing customer experiences with ratings and pictures
--   List and adresses of Cyber Clinics and names of certified Cyber Doctors.
+-   List and addresses of Cyber Clinics and names of certified Cyber Doctors.
 
 ## Testing
 -   Accessibility
     -   I ran the pages through Lighthouse and confirmed that the colors and fonts are easy to read and that the site is accessible.
 -   Performance
     -   Had a slow loading score in Brave browser - fixed it by disabling my extensions.
-    -   Label elements in booking form were not assigned to input elements. Fixed by adding id names to input elements.
+    -   Label elements in the booking form were not assigned to input elements. Fixed by adding id names to input elements.
     -   Fixed issue with autocomplete attributes in input elements.
     -   As a result, website performance score now is 99%
     ![Screenshot of Lighthouse result](/assets/images/lighthouse-readme.png)
@@ -64,7 +64,7 @@ The site is responsive for all screen sizes.
 -   Tested and confirmed that the page works in different browsers: Brave(Chrome), Microsoft Edge, Mozilla.
 -   Tested and confirmed that all internal links are working and redirecting the user between the pages.
 -   Tested that all external links, to social media sites, are working and opening in a separate tab.
--   Tested and confirmed that the booking form works, all fields are required, (except checkbox, as it requires javascript which I am not familiar to yet).
+-   Tested and confirmed that the booking form works, all fields are required, (except checkbox, as it requires javascript which I am not familiar with yet).
 -   Tested that the email field only accepts email address
 -   Tested Submit button that brings to CodeInstitute page and Reset button clears the form
 ![Screenshot of the Code institute page that is displayed when submitting the form](/assets/images/code-institute-submit-readme.png)
