@@ -186,14 +186,18 @@ input[type="checkbox"i] {
     border-radius: 2px;
     padding: 5px 15px;
     background-color: #ffffff24;
-    color: #1DF500;
+    color: white;
+    text-shadow: #1DF500 1px 0 7px;
+    font-size: larger;
 }
 
 .reset-button {
     border-radius: 2px;
     padding: 5px 15px;
     background-color: #1eff0052;
-    color: black
+    color: white;
+    text-shadow: #1DF500 1px 0 7px;
+    font-size: larger;
 }
 
 /*Footer*/
